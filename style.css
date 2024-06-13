@@ -1,0 +1,276 @@
+a {
+    color: #854632;
+    color: #7b284f;
+
+    color: #ffffff;
+    color: #fff5fa;
+    color: #f3e6d8;
+    color: #e4ded8;
+    color: #5f574e;
+    color: #302d2c;
+}
+
+body {
+    background-color: #f3e6d8;
+    margin: 0;
+    color: #5f574e;
+    font-family: "Outfit", Arial, sans-serif ;
+    font-size: 1rem;
+}
+
+p, h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+h1, h2 {
+    font-family: 'Young Serif', Arial, sans-serif;
+}
+
+ul {
+    margin: 0px; 
+}
+
+strong {
+    color: #5f574e;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+header{
+    max-width: 1200px;
+    background-color: #ffffff;;
+    margin: 50px auto 0px auto;
+    padding: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.introducao {
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 20px 40px 20px 40px;
+}
+
+.introducao h1 {
+    color: #302d2c;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+.introducao p {
+    padding-bottom: 40px;
+}
+
+.tempo{
+    background-color: #fff5fa;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.tempo h2 {
+    color: #7b284f;
+}
+
+.tempo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tempo ul li::marker {
+    color: #7b284f;
+  }
+
+
+.ingredientes {
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 20px 40px 20px 40px;
+}
+
+.ingredientes h2 {
+    color: #854632;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.ingredientes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: square;
+}
+
+.lista li{
+    padding-left: 20px;
+}
+
+ul li::marker {
+    color: #854632;
+}
+
+.instrucoes {
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 0px 40px 20px 40px;
+    line-height: 1.5;
+}
+
+.divisao {
+    margin-top: 40px;
+    height: 1px;
+    width: 1200px;
+    border: 0px;
+    background-color: #5f574e44;
+}
+
+.instrucoes h2 {
+    color: #854632;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.instrucoes li {
+    padding-bottom: 10px;
+}
+
+ol li {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+ol li::marker {
+    color: #854632;
+}
+
+li span {
+    font-weight: 400;
+}
+
+.tabela {
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 0px auto 50px auto;
+    padding: 0px 40px 40px 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tabela h2 {
+    color: #854632;
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+.tabela p {
+    padding-bottom: 10px;
+}
+
+.tabela ul {
+    list-style: none;
+}
+
+.lista-tabela {
+   padding: 0px;
+}
+
+.tabela li {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 50px;
+    border-bottom: 1px solid #5f574e44;
+}
+
+.tabela span {
+    color: #854632;
+    font-weight: 700;
+}
+
+@media (width <=400px) { 
+    body {
+        background-color: #ffffff;
+    }
+    
+    img {
+        border-radius: 0px;
+    }
+
+    ul li {
+        padding-left: 10px;
+    }
+    
+    header{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .introducao h1 {
+        font-size: 2rem;
+    }
+    
+    .tempo {
+        padding-left: 0px;
+    }
+    
+    .tempo h2 {
+        font-size: 1.25rem;
+        padding-left: 20px;
+    }
+
+    .ingredientes {
+        padding: 20px;
+    }
+    
+    .ingredientes h2 {
+        font-size: 1.8rem;
+        padding-left: 20px;
+    }
+    
+    .instrucoes {
+        padding: 20px;
+    }
+    
+    .divisao {
+        width: 300px;
+    }
+    
+    .instrucoes h2 {
+        font-size: 1.8rem;
+        padding-left: 20px;
+    }
+    
+    .tabela h2 {
+        padding: 10px 0px 20px 0px;
+    }
+
+    .tabela ul {
+        padding-left: 0px;
+    } 
+
+    .tabela li {
+        padding: 20px 20px;
+    }
+    
+    .tabela span {
+       padding-left: 30px;
+    }
+    
+    .divisao-tabela {
+        width: 290px;
+    }
+}
+
