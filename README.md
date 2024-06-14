@@ -4,10 +4,6 @@ Esta é uma solução para o [desafio da página de receitas no Frontend Mentor]
 
 # Visão Geral
 
-## Tela de captura
-
-![](./receita-de-omelete.png)
-
-## Links
+## Link
 
 - URL da Solução: [Add solution URL here](https://your-solution-url.com)
